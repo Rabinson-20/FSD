@@ -1,0 +1,13 @@
+use FACEPrep;
+
+SELECT DISTINCT course FROM emp;
+
+SELECT DISTINCT name FROM emp;
+
+SELECT DISTINCT name, course FROM emp;
+
+SELECT DISTINCT course FROM emp WHERE id > 1;
+
+SELECT DISTINCT name FROM emp WHERE id < 26;
+
+SELECT DISTINCT course FROM emp WHERE course = 'MCA';
